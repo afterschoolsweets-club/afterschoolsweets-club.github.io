@@ -1,0 +1,77 @@
+ @font-face{
+    font-family: "GyeonggiTitle";
+    font-weight: 300;
+    font-style: normal;
+    src: url("https://cdn.randomstar.io/webfonts/gyeonggi/woff/Title_Light.woff") format("woff"),
+        url("https://cdn.randomstar.io/webfonts/gyeonggi/Title_Light.otf") format("otf");
+    font-display: swap;
+ }
+ @font-face{
+    font-family: "GyeonggiTitle";
+    font-weight: 500;
+    font-style: normal;
+    src: url("https://cdn.randomstar.io/webfonts/gyeonggi/woff/Title_Medium.woff") format("woff"),
+        url("https://cdn.randomstar.io/webfonts/gyeonggi/Title_Medium.otf") format("otf");
+    font-display: swap;
+}
+ @font-face{
+    font-family: "GyeonggiTitle";
+    font-weight: 700;
+    font-style: normal;
+    src: url("https://cdn.randomstar.io/webfonts/gyeonggi/woff/Title_Bold.woff") format("woff");
+    font-display: swap;
+ }
+
+ body{font-family: "GyeonggiTitle", sans-serif;}
+
+  :root{
+    --bg-color: #7BD5C0;
+    --txt-color: #FAFAFA;
+    --doc-color: #06BBFA;
+    --tab-color: #33AAFF;
+    --tab-active-color: #0077DD;
+  }
+
+  
+
+
+  body{
+    background-color: var(--bg-color);
+    color: var(--txt-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+
+  #members{
+    font-family: "Monotype Corsiva" !important;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  hr{
+    width: 98%;
+    margin: auto;
+    border-top: 1px solid var(--txt-color);
+  }
+
+  a:link{
+    color: var(--tab-color);
+    text-decoration: none;
+  }
+  a:active{
+    color: var(--txt-color);
+    text-decoration: none;
+  }
+  a:visited{
+    color: var(--txt-color);
+    text-decoration: none;
+  }
+  a:hover{
+    color: var(--txt-color);
+    text-decoration: none;
+  }
+
+  .disclaimer{
+   font-size: 0.75rem;
+  }
