@@ -40,7 +40,7 @@
     color: var(--txt-color);
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.44;
   }
 
   #members{
@@ -70,6 +70,32 @@
   a:hover{
     color: var(--txt-color);
     text-decoration: none;
+  }
+
+  #sugarrush{
+   width: auto;
+   height: auto;
+  }
+
+  @media ( max-width: 1280px ){
+   #sugarrush{
+    width: 50vw;
+    height: auto;
+   }
+  }
+  
+  @media ( max-width: 1024px ){
+   #sugarrush{
+    width: 70vw;
+    height: auto;
+   }
+  }
+  
+  @media ( max-width: 720px ){
+   #sugarrush{
+    width: 90vw;
+    height: auto;
+   }
   }
 
   .disclaimer{
