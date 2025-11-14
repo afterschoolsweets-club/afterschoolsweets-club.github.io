@@ -2,23 +2,23 @@
     font-family: "GyeonggiTitle";
     font-weight: 300;
     font-style: normal;
-    src: url("https://cdn.randomstar.io/webfonts/gyeonggi/woff/Title_Light.woff") format("woff"),
-        url("https://cdn.randomstar.io/webfonts/gyeonggi/Title_Light.otf") format("otf");
+    src: url("https://cdn.vernalrecords.io/webfonts/gyeonggi/woff/Title_Light.woff") format("woff"),
+        url("https://cdn.vernalrecords.io/webfonts/gyeonggi/Title_Light.otf") format("otf");
     font-display: swap;
  }
  @font-face{
     font-family: "GyeonggiTitle";
     font-weight: 500;
     font-style: normal;
-    src: url("https://cdn.randomstar.io/webfonts/gyeonggi/woff/Title_Medium.woff") format("woff"),
-        url("https://cdn.randomstar.io/webfonts/gyeonggi/Title_Medium.otf") format("otf");
+    src: url("https://cdn.vernalrecords.io/webfonts/gyeonggi/woff/Title_Medium.woff") format("woff"),
+        url("https://cdn.vernalrecords.io/webfonts/gyeonggi/Title_Medium.otf") format("otf");
     font-display: swap;
 }
  @font-face{
     font-family: "GyeonggiTitle";
     font-weight: 700;
     font-style: normal;
-    src: url("https://cdn.randomstar.io/webfonts/gyeonggi/woff/Title_Bold.woff") format("woff");
+    src: url("https://cdn.vernalrecords.io/webfonts/gyeonggi/woff/Title_Bold.woff") format("woff");
     font-display: swap;
  }
 
